@@ -1,0 +1,171 @@
+h1{
+  font-size: 50px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+h2{
+  font-size: 15px;
+  display: inline;
+
+  padding-top: 60px;
+  padding-left: 20px;
+  padding-right: 10px;
+
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+h3{
+  font-size: 80px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+h5{
+  font-size: 40px;
+  color: #000000;
+  padding-top:80px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+p{
+  font-size: 15px;
+}
+.p-about{
+  font-size: 20px;
+  color: #000000;
+  padding-bottom: 80px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+em{
+  font-size: 15px
+}
+
+a {
+    color: #000000;
+}
+a:visited{
+    color: #000000 ;
+}
+a:hover {
+    color: #dddddd ;
+    text-decoration: none;
+}
+a:focus {
+    color: #dddddd ;
+}
+a:active {
+    color: #dddddd;
+}
+
+.importantp{
+  font-size: 70px;
+  color: #ffffff;
+  font-weight: 200;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.importantq{
+  font-size: 70px;
+  color: #000000;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding-left: 70px;
+  padding-top: 100px;
+}
+
+.bgcolorblack{
+    background-image:
+    url("../imagefile/cafe.jpg");
+}
+
+.menu-page{
+  background-color: #ffffff
+}
+.menu-item{
+  font-size: 15px;
+
+  padding-top: 60px;
+  padding-left: 20px;
+  padding-right: 10px;
+
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: auto;
+}
+.bgfooter{
+  background-color: #191919;
+}
+
+.headerstyle{
+  background-color: #ffffff
+}
+
+
+/* This is for the footer info */
+.footerpara{
+  line-height: 20px;
+}
+
+.menu-elements{
+padding: 100px;
+padding-top: 80px;
+padding-bottom: 0px;
+color: auto;
+}
+
+.aboutfooter{
+    margin-top: 0px;
+}
+.menufooter{
+  margin-top: 100px;
+}
+.indexfooter{
+  margin-top: 400px;
+}
+.footer{
+  background-color: #191919;
+  color: #919191;
+  font-weight: 200;
+  font-size: 25px;
+  padding: 100px;
+  padding-top: 50px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.cafelogo{
+  font-size: 50px;
+  color: #333333;
+  font-weight: 700;
+  text-transform: none;
+  letter-spacing: normal;
+}
+
+/* size breakpoints */
+@media (min-width: 768px) {
+  .menu-item{
+    letter-spacing: none;
+    font-size: 20px;
+    color: #000000;
+  }
+}
+
+@media (max-width: 768px) {
+  .menu-item{
+    padding: 0px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-weight: normal;
+    font-size: 40px;
+    color: #dddddd
+    display:none;
+  }
+  .indexfooter{
+    margin-top: 00px;
+  }
+}
